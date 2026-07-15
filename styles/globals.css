@@ -42,3 +42,6 @@ footer{
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+a{
+  text-decoration: none;
+}
