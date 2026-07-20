@@ -1,9 +1,14 @@
 import styles from"@/styles/Home.module.css"
 import Link from "next/link"
 import Image from "next/image";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>หน้าแรก | Hattakorn</title>
+      <meta name="keywords" content="Hattakorn,Shop"/>
+    </Head>
     <div className={styles.container}>
       <h1 className={styles.title}>Home Page1</h1>
       <Image src="/shopping.svg" width={400} height={400} alt="logo" />
