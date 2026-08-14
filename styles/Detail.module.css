@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.detail h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.detail p {
+    font-size: 1.1rem;
+    margin: 0;
+}
